@@ -14,11 +14,34 @@
         <i class="fa-solid fa-comments"></i>
     </div>
     <div id="chat-container" style="display:none;">
+        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px;">
+            <button id="clear-chat-btn"
+                style="background: #e5e7eb; color: #374151; border: none; border-radius: 6px; padding: 4px 12px; cursor: pointer; font-weight: bold;">
+                Clear
+            </button>
+        </div>
         <div id="chat-box"></div>
         <form id="chat-form">
             <input type="text" id="user-input" placeholder="Escribe tu mensaje..." autocomplete="off">
             <button type="submit">Enviar</button>
         </form>
+    </div>
+    <!-- Modal de confirmación para limpiar chat -->
+    <div id="clear-modal"
+        style="display:none; position:fixed; top:0; left:0; width:100vw; height:100vh; background:rgba(0,0,0,0.25); z-index:2000; align-items:center; justify-content:center;">
+        <div
+            style="background:#fff; border-radius:10px; padding:28px 24px; max-width:320px; margin:auto; box-shadow:0 4px 24px rgba(0,0,0,0.18); text-align:center;">
+            <p style="font-size:1.1rem; margin-bottom:18px;">Estás a punto de eliminar la conversación actual con el
+                bot.<br>¿Deseas proceder?</p>
+            <button id="confirm-clear"
+                style="background:#3b82f6; color:#fff; border:none; border-radius:6px; padding:6px 18px; margin-right:10px; font-weight:bold; cursor:pointer;">
+                Confirmar
+            </button>
+            <button id="cancel-clear"
+                style="background:#f87171; color:#fff; border:none; border-radius:6px; padding:6px 18px; font-weight:bold; cursor:pointer;">
+                Cancelar
+            </button>
+        </div>
     </div>
     <script src="{{ url_for('static', filename='scripts/chatbot.js') }}"></script>
 </body>

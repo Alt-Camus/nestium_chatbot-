@@ -1,0 +1,30 @@
+[
+    {
+        "pregunta": "parametros ideales gallina",
+        "respuesta": "Los parámetros ideales para incubar huevos de gallina son: temperatura 37.5°C, humedad 55%, y 21 días de incubación."
+    },
+    {
+        "pregunta": "como funciona el sitio",
+        "respuesta": "El sitio te permite monitorear y controlar tus incubadoras, ver el estado en tiempo real y recibir recomendaciones para cada especie."
+    },
+    {
+        "pregunta": "vincular nueva incubadora",
+        "respuesta": "Para vincular una nueva incubadora, ve al menú 'Incubadoras', haz clic en 'Agregar' y sigue los pasos para registrar el dispositivo."
+    },
+    {
+        "pregunta": "adquirir incubadora",
+        "respuesta": "Para adquirir una incubadora, visita la sección 'Tienda' o contáctanos a través del formulario de contacto en el sitio."
+    },
+    {
+        "pregunta": "parametros ideales codorniz",
+        "respuesta": "Para codorniz: temperatura 37.7°C, humedad 60%, y 17 días de incubación."
+    },
+    {
+        "pregunta": "parametros ideales pato",
+        "respuesta": "Para pato: temperatura 37.5°C, humedad 65%, y 28 días de incubación."
+    },
+    {
+        "pregunta": "contacto soporte",
+        "respuesta": "Puedes contactar al soporte desde la sección 'Ayuda' o enviando un correo a soporte@tusitio.com."
+    }
+]
